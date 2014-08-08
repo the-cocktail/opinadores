@@ -10,13 +10,29 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body id="bienvenido-opinadores">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/jquery.cookiesdirective.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $.cookiesDirective({
+            privacyPolicyUri: '/es/politica-privacidad.html',
+            explicitConsent: false,
+            duration: 6000,
+            message: 'Utilizamos cookies propias y de terceros para ofrecerte una mejor experiencia y servicio. Si continúas navegando, consideramos que aceptas el uso de cookies en nuestro sitio.'
+        });
+    });
+</script>
+
+
   <div class="wrapper">
   <div id="header">
   <a href="index.html" class="logo"><span>Neutrino - content is everywhere</span></a>
   <a href="es/tu-cuenta.html" class="login"><span>Tu cuenta</span></a>
 </div><!-- #header -->
 
-  
+  <!--<div class="cookie_warn" style="display:none">-->
+
   
   <div id="nav">
   <ul>
