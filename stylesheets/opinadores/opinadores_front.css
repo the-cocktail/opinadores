@@ -270,7 +270,7 @@ fieldset {
   font-size:1em;
   color:#fff;
   padding:.3em;
-  
+
 }
 
 /* Contact end */
@@ -347,4 +347,44 @@ fieldset {
   font-weight:bold;
   padding:0.3em 1em;
   text-align:right;
+}
+
+#top-advice {
+  position: relative;
+  padding: 2em 4em;
+  border-radius: 4px;
+  margin: 10px 0 32px 0;
+
+  background-color: #fff4ac;
+}
+#top-advice h2 {
+  padding-bottom: .7em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #CCCCCC;
+
+  font-family: "droid-serif-1","droid-serif-2",serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  color:333;
+}
+#top-advice p {
+  font-size: 1.3em;
+  color: #666;
+  margin-bottom: 1em;
+}
+#top-advice p:last-child {
+  margin-bottom: 0;
+}
+#top-advice .close {
+  position: absolute;
+  top: 10px; right: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: 000px;
+}
+#top-advice .close:hover {
+  color: #000;
+}
+.hidden {
+  display: none !important;
 }
