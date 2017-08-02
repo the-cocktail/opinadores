@@ -349,7 +349,8 @@ fieldset {
   text-align:right;
 }
 
-#top-advice {
+#top-advice,
+#top-closing-advice {
   position: relative;
   padding: 2em 4em;
   border-radius: 4px;
@@ -357,7 +358,13 @@ fieldset {
 
   background-color: #fff4ac;
 }
-#top-advice h2 {
+
+#top-closing-advice {
+  background-color: #ff0000;
+}
+
+#top-advice h2,
+#top-closing-advice h2 {
   padding-bottom: .7em;
   margin-bottom: 0.5em;
   border-bottom: 1px solid #CCCCCC;
@@ -367,14 +374,21 @@ fieldset {
   font-weight: normal;
   color:333;
 }
-#top-advice p {
+#top-advice p,
+#top-closing-advice p {
   font-size: 1.3em;
   color: #666;
   margin-bottom: 1em;
 }
-#top-advice p:last-child {
+
+#top-closing-advice p {
+  color: #FFFFFF;
+}
+#top-advice p:last-child,
+#top-closing-advice p:last-child {
   margin-bottom: 0;
 }
+
 #top-advice .close {
   position: absolute;
   top: 10px; right: 10px;
